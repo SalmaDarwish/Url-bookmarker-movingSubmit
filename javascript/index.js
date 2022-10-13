@@ -161,7 +161,8 @@ siteName.addEventListener("keyup", function () {
     }
 
 })
-siteUrl.addEventListener("keyup", function () {
+siteName.addEventListener("keyup", isNameEmpty)
+siteUrl.addEventListener("keyup" , function () {
     validateSiteUrl()
 
 })
