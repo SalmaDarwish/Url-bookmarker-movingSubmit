@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Bookmarker </title>
+    <!--  CSS   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--   CSS  -->
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags -->
+</head>
+
+<body>
+    <header>
+        <div class="container mt-5 p-4">
+            <h3>Bookmarker
+            </h3>
+        </div>
+    </header>
+    <div class="container">
+        <div class="bookmark-box position-relative">
+            <div class="column">
+                <h2>Bookmark your favorite sites
+                </h2>
+                <label for="siteName" class="fw-bold fs-6 my-3">Site Name</label>
+                <input id="siteName" type="text" placeholder="Bookmark Name" class="form-control site-name mx-auto">
+                <p class="error m-auto my-2 rounded d-none" id="nameError"></p>
+                <label for="siteUrl" class="fw-bold fs-6 my-3">Site URL</label>
+                <input id="siteUrl" type="text" placeholder="website URL" class="form-control site-url mx-auto">
+                <p class="error m-auto d-none rounded my-2" id="urlError"></p>
+                <div id="buttons">
+                    <button class="mt-4 " id="submit">Submit</button>
+                    <button class="mt-4 mx-2" id="resetBtn">reset</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column" id="bookmarkList">
+
+        </div>
+    </div>
+    <footer class=" mt-3">
+        <div class="container">
+            <p class="fw-bold mt-2">© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
