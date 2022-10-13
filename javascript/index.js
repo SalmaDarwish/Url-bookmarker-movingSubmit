@@ -60,7 +60,7 @@ function displayList() {
                 <div class="col-md-6">
                 <div class="d-flex justify-content-end">
 
-                    <a class=" btn btn-primary me-3" href="http://${bookmarkList[i].url}" target="_blank">visit</a>
+                    <a class=" btn btn-primary me-3" href="${bookmarkList[i].url}" target="_blank">visit</a>
 
 
                     <button class=" btn btn-danger" id="deleteBtn" onclick="deleteUrl(${i})">Delete</button>
